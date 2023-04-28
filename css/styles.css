@@ -190,7 +190,28 @@
     margin-right: 10px;
 }
 
-/* Mobile */
+/* Projects */
+
+#projects-box {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.projects-title {
+    margin: 15px;
+}
+
+#project-image {
+    height: 26rem;
+    width: 25rem;
+    align-items: center;
+    border-radius: 10%;
+    margin-top: 15px;
+}
+
+/* Mobile */    
 @media(max-width: 450px) {
 
     #container{
@@ -239,4 +260,12 @@
         font-size: 60px;
         
     }
+
+    #project-image {
+        flex-direction: column;
+        max-width: 90%;
+        max-height: 50%;
+    }
+
 }
+
