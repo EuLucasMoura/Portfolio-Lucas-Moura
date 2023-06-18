@@ -200,15 +200,20 @@
 }
 
 .projects-title {
-    margin: 15px;
+    margin: 10px;
 }
 
 #project-image {
-    height: 26rem;
-    width: 25rem;
+    height: 25rem;
+    width: 15rem;
     align-items: center;
     border-radius: 10%;
-    margin-top: 15px;
+    border: none;
+}
+
+#project-description {
+    padding: 10px;
+    font-size: large;
 }
 
 /* Mobile */    
